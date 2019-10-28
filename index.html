@@ -1,1 +1,331 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+	<html>
+		<head>
+
+			<meta charset="utf-8">
+			<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+			<meta name="viewpoint" content="width=device-width, inital-scale=1">
+
+			<title>Local Market</title>
+			<style type="text/css">
+				body{
+					margin: 0;
+					background-color: black;
+				}
+				.container{
+					width: 100%;
+				}
+				.header{
+					width: 100%;
+					height: 65px;
+					background-color: #000;
+
+				}
+				#interior{
+					width: 1100px;
+					margin: 0 auto;
+				}
+
+				
+				#topcontent{
+					width: 100%;
+					height: 100px;
+				}
+				#logo{
+					width: 85px;
+					height: 85px;
+					background-image: url('Untitled-11.JPG');
+					float: left;
+					display: inline-block;
+
+				}
+				
+				#navtop{
+					height: 35px;
+					background-color: #000;
+					float: left;
+					width: 1015px;
+					color: #fff;
+				}
+				.topnav-font{
+					font-size: 1.2em;
+					font-family: sans-serif;
+					padding-left: 20px;
+					display: inline-block;
+					line-height: 40px;
+					vertical-align: middle;
+					
+				}
+				.greyfont{
+					color: #ccc;
+				}
+				
+				#navbottom{
+					height: 30px;
+					background-color: #ccc;
+					float: left;
+					width: 1015px;
+					color: #fff;
+				}
+				.bottomnav-font{
+					font-size: 0.95em;
+					font-family: sans-serif;
+					padding-left: 20px;
+					color: #222;
+					display: inline-block;
+					line-height: 30px;
+					vertical-align: middle;
+					font-weight: 500;
+				
+				}
+				#mno{
+					font-size: 0.95em;
+					font-family: sans-serif;
+					color: #222;
+					display: inline-block;
+					line-height: 26px;
+					vertical-align: middle;
+					background-color: #ccc;
+					font-weight: 500;
+					border: none;
+					padding-top: none;
+					margin-top: none;
+				}
+				#mno:hover{
+					
+					color: white;
+					padding-top: none;
+					margin-top: none;
+				}
+				.moneyfont{
+					background-color: #006595;
+					font-size: 0.95em;
+					font-family: sans-serif;
+					padding-left: 20px;
+					color: #fff;
+					display: inline-block;
+					line-height: 40px;
+					vertical-align: middle;
+					padding-right: 15px;
+					font-weight: 500;
+				}
+				.livetv{
+					background-color: #c00;
+					font-size: 0.95em;
+					font-family: sans-serif;
+					padding-left: 20px;
+					color: #fff;
+					display: inline-block;
+					line-height: 30px;
+					vertical-align: middle;
+					padding-right: 15px;
+					font-weight: 500;
+					float: right;
+				}
+				
+				.searchbox{
+					background-color: #000;
+					font-size: 0.95em;
+					font-family: sans-serif;
+					padding-left: 10px;
+					color: #fff;
+					display: inline-block;
+					line-height: 30px;
+					vertical-align: middle;
+					padding-right: 15px;
+					font-weight: 500;
+					float: right;
+					background-color: #333;
+				}
+				#mainsearch{
+					height: 30px;
+					width: 120px;
+					background-color: #333;
+					vertical-align: middle;
+					line-height: 35px;
+					outline: 0;
+					float: right;
+					font-size: 0.95em;
+					color: #8E8B8B;
+					padding-right: 15px;
+					border: 0;
+				}
+
+				#content{
+					width: 100%;
+				}
+
+				#mainleft{
+					width:auto;
+					float: left;
+					padding-left: 100px;
+					padding-right: 30px;
+					
+					
+					
+
+				}
+				#mainright{
+					width: 25%;
+					background-image: url("361682-css-background.jpg");
+					float: left;
+					padding-left: 15px;
+					padding-right: 20px;
+					height: 503px;
+					
+				}
+				.winner{
+/*					padding: 80px;*/
+					padding-top: 100px;
+					
+				}
+				.email{
+					font-family: "Arial";
+					font-size: 1.30em;
+					line-height: 25px;
+					display: inline-block;
+					font-weight: bold;
+					
+				}
+				#inputPassword3{
+					border-radius: 6px;
+					height: 21px;
+					width: 220px;
+					float: right;
+				}
+				#inputEmail3{
+					border-radius: 6px;
+					height: 21px;
+					width: 220px;
+					float: right;
+					
+				}
+				.checkbox{
+					line-height: 45px;
+					text-align: center;
+					padding-right: 15px;
+				}
+				.sansakr{
+				padding-right: 7px;	
+				}
+				.btns{
+				text-align: center;	
+		
+				}
+				.para{
+					text-align: center;
+					font-family: "Arial"
+				}
+				#LOL{
+					padding-left: 10px;
+					padding-right: 10px;
+					padding-top: 4px;
+					padding-bottom: 4px;
+					border-radius: 6px;
+					font-family: "Arial";	
+					font-size: 15px;
+					background-color: cornflowerblue;
+					border: 2px solid #C0C0C0;
+				}
+				#LOL:hover{
+					background-color: white;
+					font-weight: bold;
+				}
+				#xyz{
+					background-color: black;
+					border: none;
+					font-size: 1em;
+					font-family: sans-serif;
+					display: inline-block;
+					line-height: 40px;
+					vertical-align: middle;
+					color: gray;
+				}
+				#xyz:hover{
+					background-color: deeppink;
+					color: white;
+				}
+				#abc{
+					color: white;
+				}
+				#not{
+					color: white;
+				}
+			</style>
+		</head>
+		<body>
+			<div class="container">
+				<div class="header">
+					<div id="interior">
+						
+						<div id="topcontent">
+							
+								<a href="work.html"><div id="logo"></div></a>
+							
+						
+							<div id="navtop">
+								<div class="topnav-font greyfont"><button id="xyz" onClick="alert('Under Construction');">Home</button></div>
+								<div class="topnav-font greyfont"><button id="xyz" onClick="alert('Under Construction');">About Us</button></div>
+								<div class="topnav-font greyfont"><button id="xyz" onClick="alert('Under Construction');">Categories</button></div>
+								<div class="topnav-font greyfont"><button id="xyz" onClick="alert('Under Construction');">Log In</button></div>
+								<div class="topnav-font greyfont"><button id="xyz" onClick="alert('Under Construction');">More...</button></div>
+								
+								<div class="searchbox"><input id="mainsearch" value="Search "></div>
+							</div>
+							<div id="navbottom">
+								<div class="bottomnav-font"><button id="mno" onClick="alert('Under Construction');">Electronics</button></div>
+								<div class="bottomnav-font"><button id="mno" onClick="alert('Under Construction');">Books</button></div>
+								<div class="bottomnav-font"><button id="mno" onClick="alert('Under Construction');">Men Fashion</button></div>
+								<div class="bottomnav-font"><button id="mno" onClick="alert('Under Construction');">Female Fashion</button></div>
+								<div class="bottomnav-font"><button id="mno" onClick="alert('Under Construction');">Furniture</button></div>
+								<div class="livetv"><a href="#" id="abc">Live Shopping</a></div>
+							</div>
+						</div>
+						</div>
+
+						<div id="content">
+							<div id="mainleft">
+							<img height="523" src="pic.jpg">	
+							</div>
+							<div id="mainright">
+								
+								<div class="winner">
+								<form class="form-horizontal">
+  								<div class="email">
+									<label for="inputEmail3" class="sansakr">Email</label>
+									<input type=email id="inputEmail3" placeholder=" Email">
+									<br>
+									<br>
+									<label for="inputPassword3" class="sansakr" >Password</label>
+      								<input type="password" id="inputPassword3" placeholder=" Password">
+									
+								</div>
+									<br>
+								<div class="checkbox">
+        							<label>
+          							<input type="checkbox"> Remember me
+        							</label>
+      							</div>	
+								<br>
+								<div class="btns">
+								<button type="button" id="LOL" class="btn btn-danger">Sign In</button>
+								</div>	
+								<div class="para">
+									<p><strong>Don't have an account ? <a href="#" id="not">Sign up</a></strong></p>
+									
+								</div>
+								</form>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+				
+				
+			</div>
+			<script>document.getElementById("mainright").style.border="10px solid gray";</script>
+			
+				
+			
+		</body>
+	</html>
